@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        {/* for mobile screen */}
+        {/* for mobile screen */} 
         <div className= "sm:hidden flex flex-1 justify-end items-center">
           <img
             src = {toggle ? close : menu}
